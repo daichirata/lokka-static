@@ -12,7 +12,7 @@ module Lokka
           when :html
             File.read(view_path + "/#{base_name}.html")
           else
-            send :render, ext_name.to_sym, "plugin/lokka-static/views/#{base_name}".to_sym, :layout => false
+            send :render, ext_name, "plugin/lokka-static/views/#{base_name}".to_sym, :layout => false
           end
         end
       end
