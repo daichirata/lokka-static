@@ -1,0 +1,30 @@
+body {
+    margin: 0 0;
+    padding: 0 0;
+    background: #F9F9F9;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #666;
+    font-size: 60px;
+    text-align: left;
+    margin: 100px auto;
+    span {
+        font-size: 25px;
+        line-height: 12px;
+        color: #666;
+        margin-left: 10px;
+    }
+}
+
+h2 {
+    color: #666;
+    font-size: 15px;
+    line-height: 2;
+    text-align: left;
+}
